@@ -17,37 +17,29 @@
         header {
             background: rgba(255, 204, 0, 0.9);
             padding: 20px;
-            font-size: 24px;
+            font-size: 2em;
             font-weight: bold;
-            color: black;
         }
-        .content {
-            background: rgba(0, 0, 0, 0.6);
+        section {
+            background: rgba(0, 0, 0, 0.7);
             padding: 20px;
+            margin: 20px auto;
+            width: 80%;
             border-radius: 10px;
-            display: inline-block;
-            margin-top: 20px;
         }
-        .buttons a {
+        a {
+            color: #00ccff;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .button {
+            background: #ffcc00;
+            padding: 10px 20px;
+            border-radius: 5px;
             display: inline-block;
             margin: 10px;
-            padding: 15px;
-            background: #ffcc00;
+            font-size: 1.2em;
             color: black;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        .roadmap {
-            margin-top: 20px;
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.8);
-            color: black;
-            border-radius: 10px;
-            text-align: left;
-            width: 60%;
-            margin-left: auto;
-            margin-right: auto;
         }
     </style>
 </head>
@@ -55,39 +47,35 @@
     <header>
         🚀 Bienvenido a Libertad-Token 🚀
     </header>
-    <div class="content">
+    
+    <section>
+        <h2>Acerca de Libertad-Token</h2>
         <p>Un token meme basado en Solana que promueve la libertad y la justicia en todo el mundo.</p>
         <p><strong>Contrato del Token:</strong> 7aw1gZsvNsqw9kNXsAPZJxDe1g8pX1h1Fa9y6S8Ed6mA</p>
-        <div class="buttons">
-            <a href="https://jup.ag/swap/SOL-7aw1gZsvNsqw9kNXsAPZJxDe1g8pX1h1Fa9y6S8Ed6mA" target="_blank">Comprar en Jupiter</a>
-            <a href="https://raydium.io/swap/?inputCurrency=SOL&outputCurrency=7aw1gZsvNsqw9kNXsAPZJxDe1g8pX1h1Fa9y6S8Ed6mA" target="_blank">Comprar en Raydium</a>
-        </div>
-    </div>
+    </section>
     
-    <div class="roadmap">
-        <h2>🛤️ Hoja de Ruta</h2>
-        <h3>Fase 1: Lanzamiento</h3>
+    <section>
+        <h2>Hoja de Ruta</h2>
         <ul>
-            <li>Creación del contrato inteligente</li>
-            <li>Desarrollo del sitio web y redes sociales</li>
-            <li>Listado en Jupiter y Raydium</li>
+            <li><strong>Fase 1:</strong> Lanzamiento y Creación de Comunidad</li>
+            <li><strong>Fase 2:</strong> Listado en Exchanges Descentralizados</li>
+            <li><strong>Fase 3:</strong> Expansión Global y Alianzas</li>
         </ul>
-        <h3>Fase 2: Expansión</h3>
-        <ul>
-            <li>Marketing y promoción</li>
-            <li>Listados en más exchanges</li>
-            <li>Alianzas con proyectos cripto</li>
-        </ul>
-        <h3>Fase 3: Comunidad</h3>
-        <ul>
-            <li>Eventos, sorteos y recompensas</li>
-            <li>Creación de utilidad para el token</li>
-            <li>Expansión global</li>
-        </ul>
-    </div>
-
+    </section>
+    
+    <section>
+        <h2>Compra Libertad-Token</h2>
+        <a href="https://jup.ag/swap/SOL-7aw1gZsvNsqw9kNXsAPZJxDe1g8pX1h1Fa9y6S8Ed6mA" target="_blank" class="button">Comprar en Jupiter</a>
+        <a href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=7aw1gZsvNsqw9kNXsAPZJxDe1g8pX1h1Fa9y6S8Ed6mA" target="_blank" class="button">Comprar en Raydium</a>
+    </section>
+    
+    <section>
+        <h2>Contacto</h2>
+        <p><a href="https://t.me/LibertadToken" target="_blank">Telegram</a> | <a href="https://twitter.com/TokenLibertad" target="_blank">Twitter</a> | <a href="mailto:libertadtoken@gmail.com">Correo Electrónico</a></p>
+    </section>
+    
     <footer>
-        <p>© 2025 Libertad-Token. Todos los derechos reservados.</p>
+        &copy; 2025 Libertad-Token. Todos los derechos reservados.
     </footer>
 </body>
 </html>
